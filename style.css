@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  background-color: rgb(35, 35, 35);
+  color: rgba(255, 255, 255, 0.176);
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgba(176, 176, 176, 0.813);
+  font-weight: bold;
+  padding: 10px; /* Add padding for a more comfortable click area */
+  border-bottom: 2px solid transparent; /* Add a transparent border initially */
+  transition: border-bottom 0.3s ease; /* Smooth transition for the border */
+}
+
+nav a:hover {
+  border-bottom: 2px solid #fff; /* Change the border color on hover */
+  color: #fff; /* Change text color on hover for better contrast */
+}
+
+section {
+  padding: 40px;
+  background-color: #f4f4f4; /* Add a light background color to sections */
+}
+
+footer {
+  background-color: #333;
+  color: rgba(193, 193, 193, 0.45);
+  text-align: center;
+  padding: 10px 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7; /* Set a light background color for the entire page */
+}
+
+header {
+  background-color: rgb(35, 35, 35);
+  color: rgba(255, 255, 255, 0.176);
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgba(176, 176, 176, 0.813);
+  font-weight: bold;
+  padding: 10px;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #fff;
+  color: #fff;
+}
+
+section {
+  padding: 40px;
+  background-color: #fff; /* Set a white background color for sections */
+  border-radius: 8px; /* Add rounded corners to sections */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+}
+
+footer {
+  background-color: #333;
+  color: rgba(193, 193, 193, 0.45);
+  text-align: center;
+  padding: 10px 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-image: url('background.jpg'); /* Replace 'background.jpg' with your image file */
+  background-size: cover; /* Ensure the background image covers the entire viewport */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+}
+
+/* The rest of your existing styles remain unchanged */
